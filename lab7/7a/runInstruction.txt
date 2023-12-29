@@ -1,0 +1,9 @@
+flex  fileName.l
+bison -d fileName.y
+// output of .y file
+ lex.yy.c file & fileName.tab.c file will be generated
+ gcc lex.yy.c calc.tab.c
+ //a. exe generated
+ ./a.exe
+
+input will be asked
